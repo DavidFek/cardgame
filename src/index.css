@@ -1,0 +1,130 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rules__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+.rules__title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.rules__text {
+  font-size: 1.2rem;
+  margin: 20px;
+}
+
+.rules__button {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  background: rgb(173, 22, 22);
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+    inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5),
+    0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #dfdedf;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-decoration: none;
+}
+
+.card-item {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100px;
+  height: 200px;
+}
+
+.card-item-flipped {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 100px;
+  height: 200px;
+}
+
+.card-item-flipped img {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  margin-top: 50px;
+  opacity: 0.5;
+}
+
+.card-image {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1500px;
+  margin: auto;
+}
+.gameboard__win {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 33%;
+  margin: auto;
+  padding: 20px;
+  font-size: 3rem;
+  background-color: rgb(173, 22, 22);
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.gameboard__info-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.gameboard__input {
+  width: 50px;
+}
+.gameboard__button-new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  background: rgb(173, 22, 22);
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+    inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5),
+    0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #dfdedf;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-decoration: none;
+}
